@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+
+body{
+    background-color: #070F2B;
+    padding-block: 24px;
+    font-family: "poppins";
+    color: #FFFF;
+}
+
+.writting-section{
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    font-size: 32px;
+}
+
+.new{
+    background-color: #2ecc71;
+    color: #FFFF;
+    font-size: 20px;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+}
+
+.new:hover{
+    background-color: #27ae60;
+}
+
+main{
+    background-color: #1B1A55;
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.items{
+    margin-bottom: 24px;
+    background-color: #070F2B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border-radius: 6px;
+    list-style-type: none;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.content{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.author{
+    display: block;
+    margin-bottom: 24px;
+}
+
+.edit{
+    background-color: #007bff;
+    color: #FFFF;
+    font-size: 20px;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+}
+
+.edit:hover{
+    background-color: #0056b3;
+}
+
+.delete{
+    background-color: #e74c3c;
+    color: #FFFF;
+    font-size: 20px;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+}
+
+.delete:hover{
+    background-color: #c0392b;
+}
+
+@media(max-width: 768px){
+    .heading{
+        font-size: 24px;
+    }
+
+    .new{
+        font-size: 16px;
+    }
+
+    main{
+        padding: 16px 24px;
+    }
+
+    .items{
+        padding: 20px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .content{
+        font-size: 12px;
+    }
+
+    .author{
+        font-size: 12px;
+    }
+}
